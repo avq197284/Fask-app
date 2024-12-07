@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return '¡Hola, Mundo!'
+    return '¡Bienvenido a mi aplicación Flask!'
 
 @app.route('/about')
 def about_func():
